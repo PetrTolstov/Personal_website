@@ -1,0 +1,29 @@
+@media screen and (max-width: 700px) {
+  nav.Nav {
+    margin-bottom: 10px;
+  }
+  nav.Nav a:first-child {
+    margin-left: 0;
+  }
+  nav.Nav a.Choosen {
+    font-size: 3vw;
+  }
+  nav.Nav a {
+    font-size: 2vw;
+  }
+}
+.Nav a.Choosen {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.Nav a {
+  font-size: 14px;
+  margin-left: 30px;
+  color: #FFFFFF !important;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=Nav.module.css.map */
+
+/*# sourceMappingURL=Nav.module.css.map */

@@ -1,0 +1,100 @@
+@import '../../variables';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap');
+
+@media screen and (max-width: 1300px) {
+  .WelcomeComponent{
+    .WelcomeMainContainer{
+      span.primaryText{
+        font-size: 15vw;
+      }
+      span.secondaryText{
+        letter-spacing: calc(6vw);
+        font-size: 6vw;
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width: 900px) {
+  article.WelcomeComponent .PersonalPhoto {
+    margin-top: 15vw;
+  }
+
+  article.WelcomeComponent {
+    border-top: 1px $borderColor solid;
+    border-bottom: 1px $borderColor solid;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .PersonalPhoto{
+    width: 80vw;
+  }
+
+  .WelcomeComponent div.WelcomeHeader {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.WelcomeComponent{
+  background: $glassColor;
+  backdrop-filter: $glassBlur;
+  border-radius: 29px;
+  border: 1px $borderColor solid;
+  width: 85%;
+  max-width: 1400px;
+  padding: 10px 10px;
+  height: fit-content;
+  margin-top: 25px;
+}
+
+.WelcomeComponent{
+  .PersonalPhoto{
+    margin-top: 100px;
+  }
+
+  .WelcomeMainContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .WelcomeMainContainer{
+    span{
+      z-index: -1;
+      position: absolute;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .primaryText{
+      bottom: calc(60%);
+      font-weight: 800;
+      font-size: 200px;
+      background: $gradientColor;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .secondaryText{
+      bottom: calc(50%);
+      font-weight: 600;
+      font-size: 80px;
+      letter-spacing: 0.985em;
+      margin-right: -0.985em;
+      color: #B5019B;
+    }
+    .PersonalPhoto{}
+  }
+  .WelcomeHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

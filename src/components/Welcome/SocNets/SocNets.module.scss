@@ -1,0 +1,21 @@
+@media screen and (max-width: 700px) {
+  div.SocNets {
+    height: 4vw;
+  }
+  div.SocNets a:last-child {
+    margin-right: 0;
+  }
+}
+
+
+.SocNets{
+  display: flex;
+  height: 24px;
+}
+
+.SocNets{
+  a{
+    display: flex;
+    margin-right: 20px;
+  }
+}

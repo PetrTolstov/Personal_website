@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap");
+@media screen and (max-width: 1300px) {
+  .WelcomeComponent .WelcomeMainContainer span.primaryText {
+    font-size: 15vw;
+  }
+  .WelcomeComponent .WelcomeMainContainer span.secondaryText {
+    letter-spacing: 6vw;
+    font-size: 6vw;
+  }
+}
+@media screen and (max-width: 900px) {
+  article.WelcomeComponent .PersonalPhoto {
+    margin-top: 15vw;
+  }
+  article.WelcomeComponent {
+    border-top: 1px rgba(255, 255, 255, 0.6) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.6) solid;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .PersonalPhoto {
+    width: 80vw;
+  }
+  .WelcomeComponent div.WelcomeHeader {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.WelcomeComponent {
+  background: rgba(138, 25, 156, 0.15);
+  backdrop-filter: blur(25px);
+  border-radius: 29px;
+  border: 1px rgba(255, 255, 255, 0.6) solid;
+  width: 85%;
+  max-width: 1400px;
+  padding: 10px 10px;
+  height: fit-content;
+  margin-top: 25px;
+}
+
+.WelcomeComponent .PersonalPhoto {
+  margin-top: 100px;
+}
+.WelcomeComponent .WelcomeMainContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.WelcomeComponent .WelcomeMainContainer span {
+  z-index: -1;
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+}
+.WelcomeComponent .WelcomeMainContainer .primaryText {
+  bottom: 60%;
+  font-weight: 800;
+  font-size: 200px;
+  background: linear-gradient(90.1deg, #BD00FF 1.18%, #A90000 116.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.WelcomeComponent .WelcomeMainContainer .secondaryText {
+  bottom: 50%;
+  font-weight: 600;
+  font-size: 80px;
+  letter-spacing: 0.985em;
+  margin-right: -0.985em;
+  color: #B5019B;
+}
+.WelcomeComponent .WelcomeHeader {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=Welcome.module.css.map */
