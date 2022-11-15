@@ -10,7 +10,7 @@
 }
 @media screen and (max-width: 900px) {
   article.WelcomeComponent .PersonalPhoto {
-    margin-top: 15vw;
+    margin-top: 20vw;
   }
   article.WelcomeComponent {
     border-top: 1px rgba(255, 255, 255, 0.6) solid;
@@ -23,7 +23,7 @@
 }
 @media screen and (max-width: 700px) {
   .PersonalPhoto {
-    width: 80vw;
+    width: 100vw;
   }
   .WelcomeComponent div.WelcomeHeader {
     flex-direction: column;

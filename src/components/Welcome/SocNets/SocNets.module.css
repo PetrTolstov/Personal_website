@@ -1,6 +1,9 @@
 @media screen and (max-width: 700px) {
   div.SocNets {
-    height: 4vw;
+    height: 6vw;
+  }
+  div.SocNets a {
+    margin-right: 10vw;
   }
   div.SocNets a:last-child {
     margin-right: 0;
