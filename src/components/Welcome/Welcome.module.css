@@ -10,7 +10,7 @@
 }
 @media screen and (max-width: 900px) {
   article.WelcomeComponent .PersonalPhoto {
-    margin-top: 20vw;
+    margin-top: 4vw;
   }
   article.WelcomeComponent {
     border-top: 1px rgba(255, 255, 255, 0.6) solid;
@@ -22,6 +22,12 @@
   }
 }
 @media screen and (max-width: 700px) {
+  .WelcomeComponent .WelcomeMainContainer span.primaryText {
+    font-size: 18vw;
+  }
+  .WelcomeComponent .WelcomeMainContainer span.secondaryText {
+    font-size: 8vw;
+  }
   .PersonalPhoto {
     width: 100vw;
   }
@@ -56,7 +62,6 @@
   font-family: "Montserrat", sans-serif;
 }
 .WelcomeComponent .WelcomeMainContainer .primaryText {
-  bottom: 60%;
   font-weight: 800;
   font-size: 200px;
   background: linear-gradient(90.1deg, #BD00FF 1.18%, #A90000 116.93%);
