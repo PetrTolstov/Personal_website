@@ -5,10 +5,16 @@
 }
 @media screen and (max-width: 900px) {
   div.centerContainer {
-    padding: 10px;
+    padding: 20px;
   }
   div.containerForContent {
     width: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  p.Description {
+    margin-top: 20px;
+    font-size: 4vw;
   }
 }
 .topShadow {
@@ -26,16 +32,15 @@
 
 .WhoIAmComponent {
   color: #FFFFFF;
-  margin-top: 50px;
   width: 100%;
 }
 
 .centerContainer {
-  background: url("../../images/Subtract.svg");
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  background: url("../../images/Subtract.svg");
 }
 
 .containerForContent {
@@ -52,6 +57,7 @@
 
 .Description {
   flex-basis: 50%;
+  font-size: 20px;
 }
 
 .markedText {
