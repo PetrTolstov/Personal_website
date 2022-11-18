@@ -4,6 +4,7 @@
   background-size: cover;
   background-attachment: fixed;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  height: 2500px;
+  align-items: center;
 }

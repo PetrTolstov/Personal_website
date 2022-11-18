@@ -1,0 +1,63 @@
+@media screen and (max-width: 1100px) {
+  div.MainContent {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 900px) {
+  div.centerContainer {
+    padding: 10px;
+  }
+  div.containerForContent {
+    width: 100%;
+  }
+}
+.topShadow {
+  background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  height: 250px;
+  width: 100%;
+}
+
+.bottomShadow {
+  background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+  rotate: 180deg;
+  height: 250px;
+  width: 100%;
+}
+
+.WhoIAmComponent {
+  color: #FFFFFF;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.centerContainer {
+  background: url("../../images/Subtract.svg");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.containerForContent {
+  width: 85%;
+  max-width: 1400px;
+}
+
+.MainContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Description {
+  flex-basis: 50%;
+}
+
+.markedText {
+  background: linear-gradient(90.1deg, #BD00FF 1.18%, #A90000 116.93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*# sourceMappingURL=WhoIAm.module.css.map */

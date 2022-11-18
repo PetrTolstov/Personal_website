@@ -16,9 +16,20 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 700px) {
   article.WelcomeComponent .PersonalPhoto {
-    margin-top: 4vw;
+    max-width: 55%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  article.WelcomeComponent{
+    padding: 0;
+  }
+
+
+  article.WelcomeComponent .PersonalPhoto {
+    margin-top: 12vw;
   }
 
   article.WelcomeComponent {
@@ -39,7 +50,7 @@
         font-size: 18vw;
       }
       span.secondaryText{
-        font-size: 8vw;
+        font-size: 7vw;
       }
     }
 
@@ -47,6 +58,7 @@
   .PersonalPhoto{
     width: 100vw;
   }
+
 
   .WelcomeComponent div.WelcomeHeader {
     flex-direction: column;

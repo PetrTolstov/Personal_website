@@ -1,0 +1,40 @@
+@media screen and (max-width: 1100px) {
+  div.LogosContainer {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50px;
+  }
+  div.LogosContainer img {
+    width: auto;
+    height: 20vw;
+  }
+  div.ImageContainer:first-child {
+    mask-image: linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  }
+  div.ImageContainer:last-child {
+    mask-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  }
+}
+.LogosContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-basis: 50%;
+  position: relative;
+  left: 100px;
+}
+
+.ImageContainer:first-child {
+  mask-image: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.ImageContainer:last-child {
+  mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.LogosContainer img {
+  width: 150px;
+}
+
+/*# sourceMappingURL=LogosContainer.module.css.map */
